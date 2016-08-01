@@ -1,2 +1,2 @@
-# http-request
+# HTTP Request
 HTTP Request Module
