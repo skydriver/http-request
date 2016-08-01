@@ -14,5 +14,10 @@
             "name": "Damjan Krstevski",
             "email": "krstevski.damjan@live.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "skydriver\\HttpRequest\\": "./src"
+        }
+    }
 }
