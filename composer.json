@@ -1,5 +1,5 @@
 {
-    "name": "root/http-request",
+    "name": "skydriver/http-request",
     "description": "HTTP Request Module",
     "type": "library",
     "require": {
@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "skydriver\\HttpRequest\\": "./src"
+            "skydriver\\HttpRequest\\": "src/"
         }
     }
 }

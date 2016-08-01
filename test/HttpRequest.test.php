@@ -1,11 +1,16 @@
 <?php
 
+namespace skydriver\HttpRequest;
+
 class HttpRequestTest extends \PHPUnit_Framework_TestCase
 {
-
-    public function testTrueisTrue()
+    /**
+     * Check Request inheritance
+     */
+    public function testInheritance()
     {
-        $this->assertTrue(true);
+        $request = new HttpRequest();
+        $this->assertInstanceOf('\skydriver\HttpRequest\Request', $request);
     }
 
 }
